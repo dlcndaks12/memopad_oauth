@@ -1,0 +1,16 @@
+# PORT
+server:
+  port: 8081
+
+# AUTH
+security:
+  user:
+    name: user
+    password: test
+
+  oauth2:
+    client:
+      client-id: foo
+      client-secret: bar
+    authorization:
+      check-token-access: isAuthenticated()
